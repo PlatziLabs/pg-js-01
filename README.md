@@ -1,15 +1,17 @@
-En este desafío tienes un array de números, usando la función map debes retornar todos los números del array multiplicados por dos.
+En este desafío recibirás dos arrays de números como parámetros de entrada y debes retornar un array que tenga los dos arrays unidos.
 
 La solución debería tener un input y output como los siguientes:
 
 Input
 
 ```js
-solution([2, 4, 5, 6, 8]);
+solution([1, 2, 3], [4, 5, 6]);
+solution(["A", "B", "C"], ["D", "E", "H"]);
 ```
 
 Output
 
 ```sh
-[4,8,10,12, 16]
+[1, 2, 3, 4, 5 , 6]
+["A", "B", "C", "D", "E", "H"]
 ```
