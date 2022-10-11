@@ -26,6 +26,6 @@ describe("tests", () => {
     const arrayA = [];
     const arrayB = [];
     const rta = mergeArrays(arrayA, arrayB);
-    expect(rta).toEqual([1, 2, 3, 4, 5]);
+    expect(rta).toEqual([]);
   });
 });
